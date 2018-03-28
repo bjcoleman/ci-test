@@ -8,8 +8,4 @@ node
     {
         sh 'tox'
     }
-    stage('Static Analysis')
-    {
-        sh 'pylint src/citest/*.py'
-    }
 }
